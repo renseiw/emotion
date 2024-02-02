@@ -33,7 +33,7 @@ function setup() {
 
   // Tabelle initialisieren
   table = createElement('table');
-  table.position(500, 150);
+  table.position(500, 1050);
   let header = createElement('thead');
   let row = createElement('tr');
   row.child(createElement('th', 'Zeit'));
