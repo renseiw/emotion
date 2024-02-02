@@ -14,11 +14,11 @@ let ec; // Emotionserkennungs-Lokale Variable
 function setup() {
   // Aktiviere die Kamera und erlaube dem Browser, die Kamera zu nutzen
   let videoInput = createCapture(VIDEO);
-  videoInput.size(400, 300);
+  videoInput.size(800, 600);
   videoInput.position(70, 150);
 
   // Canvas einrichten
-  let cnv = createCanvas(400, 300);
+  let cnv = createCanvas(800, 600);
   cnv.position(70, 150);
 
   // Einen lokalen Tracker erstellen
